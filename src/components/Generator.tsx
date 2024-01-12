@@ -261,7 +261,7 @@ export default () => {
           <textarea
             ref={inputRef!}
             onKeyDown={handleKeydown}
-            placeholder="输入内容..."
+            placeholder="键入对话..."
             autocomplete="off"
             autofocus
             onInput={() => {
