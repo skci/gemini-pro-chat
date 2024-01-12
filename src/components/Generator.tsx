@@ -271,8 +271,8 @@ export default () => {
             rows="1"
             class="gen-textarea"
           />
-          <button class="p-2.5 text-sm" onClick={handleButtonClick} gen-slate-btn>
-            发送
+          <button onClick={handleButtonClick} gen-slate-btn>
+            Send
           </button>
           <button title="清空聊天" onClick={clear} gen-slate-btn>
             <IconClear />
