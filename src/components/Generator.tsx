@@ -218,12 +218,12 @@ export default () => {
         <div class="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-100">
           <div class="bg-white rounded-md shadow-md p-6">
             <div class="flex items-center justify-between">
-              <h3 class="text-lg font-medium">Coming soon</h3>
+              <h3 class="text-lg font-medium">即将上线！</h3>
               <button onClick={() => setShowComingSoon(false)}>
                 <IconX />
               </button>
             </div>
-            <p class="text-gray-500 mt-2">Chat with picture is coming soon!</p>
+            <p class="text-gray-500 mt-2">带图片聊天即将上线！</p>
           </div>
         </div>
       </Show>
@@ -261,7 +261,7 @@ export default () => {
           <textarea
             ref={inputRef!}
             onKeyDown={handleKeydown}
-            placeholder="Enter something..."
+            placeholder="输入内容..."
             autocomplete="off"
             autofocus
             onInput={() => {
@@ -272,9 +272,9 @@ export default () => {
             class="gen-textarea"
           />
           <button onClick={handleButtonClick} gen-slate-btn>
-            Send
+            发送
           </button>
-          <button title="Clear" onClick={clear} gen-slate-btn>
+          <button title="清空聊天" onClick={clear} gen-slate-btn>
             <IconClear />
           </button>
         </div>
