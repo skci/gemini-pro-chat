@@ -249,7 +249,7 @@ export default () => {
         when={!loading()}
         fallback={() => (
           <div class="gen-cb-wrapper">
-            <span>AI is thinking...</span>
+            <span>AI正在思考...</span>
             <div class="gen-cb-stop" onClick={stopStreamFetch}>Stop</div>
           </div>
         )}
@@ -272,7 +272,7 @@ export default () => {
             class="gen-textarea"
           />
           <button onClick={handleButtonClick} gen-slate-btn>
-            发送
+            Send
           </button>
           <button title="清空聊天" onClick={clear} gen-slate-btn>
             <IconClear />
